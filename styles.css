@@ -1,0 +1,163 @@
+/* All */
+html {
+    font-family: 'Barlow Condensed', sans-serif;
+    
+}
+
+h2 .title{
+    font-size: 30px;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+}
+
+/* Header */
+header {
+    position: sticky;
+    top: 0px;
+    height: 120px;
+    width: 100%;
+    background-color: lightgray;
+    margin: 0 auto;
+}
+
+header h1{
+    float: left;
+    padding-left: 10px;
+}
+
+nav ul{
+    list-style: none;
+    padding-left: 0;
+    float: right;
+}
+
+.nav h1, nav ul li{
+    margin: 0 auto;
+    display: inline-block;
+    font-family: 'Bebas Neue', cursive;
+    padding: 20px;
+    font-size: 40px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: gray;
+}
+
+.nav a:hover {
+    color: #ffffff;
+}
+
+/* Body */
+
+
+/* Body > Colors */
+
+.colors {
+    font-size: 20px;
+    margin: 0 auto;
+}
+
+.box {
+    border: 1px solid transparent;
+    margin: 10px 20px;
+    width: 230px;
+    display: inline-block;
+    text-align: center;
+}
+
+.midnight-blue {
+    background-color: #022864;
+    color: #ffffff;
+}
+
+.faded-blue {
+    background-color: #617EAB;
+    color: #ffffff;
+}
+
+.light-gray {
+    background-color: #C8CACD;
+    color: #ffffff;
+}
+
+.dark-gray {
+    background-color: #484849;
+    color: #ffffff;
+}
+
+.dark-red {
+    background-color: #991511;
+    color: #ffffff;
+}
+
+.faded-red {
+    background-color: #B56663;
+    color: #ffffff;
+}
+
+.forrest-green {
+    background-color: #0E6C1E;
+    color: #ffffff;
+}
+
+.faded-green {
+    background-color: #5BA868;
+    color: #ffffff;
+}
+
+
+/* Body > Fonts */
+body {
+    top: 130px;
+    overflow: scroll;
+}
+
+.fonts {
+    font-size: 20px;
+    display: inline-block;
+}
+
+.group {
+    display: inline-block;
+    border-left: 1px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 10px;
+}
+
+.fonts .source{
+    font-family: 'Source Code Pro', monospace;
+}
+
+.fonts .barlow{
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.fonts .bebas {
+    font-family: 'Bebas Neue', cursive;
+}
+
+.fonts .shadows {
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.fonts .italic {
+    font-style: italic;
+}
+
+.fonts .bold {
+    font-weight: bold;
+}
+
+/* Body > Styles */
+.styles h2 {
+    text-align: left;
+}
+
+
+
